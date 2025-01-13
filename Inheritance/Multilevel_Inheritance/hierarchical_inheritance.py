@@ -1,0 +1,28 @@
+#hierarchical inheritance:
+class a:
+    def a_method(self):
+        print("IAM A")
+class b(a):
+    def b_method(self):
+        print("IAM b")
+class c(a):
+    def c_method(self):
+        print("IAM c")
+class d(a):
+    def d_method(self):
+        print("IAM d")
+class b1(b):
+    def b1_method(self):
+        print("IAM b1")
+class b2(b):
+    def b2_method(self):
+        print("IAM b2")
+class c1(c):
+    def c1_method(self):
+        print("IAM c1")
+class d1(d):
+    def d1_method(self):
+        print("IAM d1")
+class d2(d):
+    def d2_method(self):
+        print("IAM d2")

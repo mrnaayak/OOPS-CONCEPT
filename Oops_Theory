@@ -1,0 +1,64 @@
+OBJECT ORIENTED PROGRAMMING:
+----------------------------
+--Python program can be written in TWO ways
+--1. procedural oriented programming
+        top to bottom procedure
+        where program is executed from top to bottom
+ 2. Object oriented programming
+      --bottom to up programming
+      --in this style of program
+      we will be getting certain advantages or features
+      i. abstraction
+      ii. encapsulation
+      iii.inheritance
+      iv. polymorphism
+      v. exception handling
+--Definition of abstraction:
+        object information hiding is called
+        mobile: UI, but inside hardware and software
+        how they have been wrapped.
+        --design level concept
+--Encapsulation:
+        binding/wrapping hardware and software
+        together as embedded is called
+        --hiding object only
+        --it is implementation level concept
+--class and object concept
+--olden days:
+        books need to be maintained.
+        registration office maintain on paper documentation
+        bank also maintains books
+ --Digital data: u can not use paper
+ --u will be searching features and feedback in internet or website
+ --ex: Realme pro 12
+ class realme_pro_12:
+      model
+      company
+      color
+      price
+      b_backup
+      screen_size
+      mobile_summarize() #method
+      buy()
+      cancel()
+      add_to_cart()
+      add_address()
+      payment()
+ #ex2:
+ write class and object info for the student
+ class student:
+      rollno
+      name
+      aadhar
+      pancard
+      emcet rank
+      father_name
+      mother_name
+      address
+      about_student(rollno)
+      marks_student()
+      attendance_of_student()
+      switch_to_other_college()
+      cancel_seat()
+      monitor_class_room()
+

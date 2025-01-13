@@ -1,0 +1,24 @@
+POLYMORPHISM
+-------------
+Poly means many
+morphism means forms
+--overloading concept
+    i. operator overloading+,* /*sdfsf*/
+    ii.function/method overloading
+    iii.constructor overloading
+--overriding concept
+    overriding concept will be applied in application
+    building only when inheritance concept come
+    --overriding means overwriting
+    i. method overriding
+    ii.constructor overriding
+    class ntr_cm:
+        def ration_Card_policy():
+             rate=2
+    class cb_cm(ntr_cm):
+        def ration_card_policy():
+               rate=1
+   obj_cb_cm=cb_cm()
+   obj_cb_cm.ration_card_policy()
+
+$ regular expression: start of the string

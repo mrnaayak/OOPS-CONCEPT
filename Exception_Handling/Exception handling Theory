@@ -1,0 +1,15 @@
+--exception means error
+--syntax error
+--runtime error/logical error/semantic error/execution time error
+--Exception handler is used to handle runtime errors
+--following are the keywords
+try:
+   here we write useful adequate code
+   if incase any runtime error occur in try body instructions
+   then except block would handle errors
+except:
+    appropriate error messages written
+
+finally:
+    in above code error might thrown or not does not matter
+    how ever finally block is executed.
